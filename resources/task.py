@@ -1,7 +1,8 @@
+from flasgger import swag_from
 from flask import request
 from flask_restful import Resource
+
 from models import Task
-from flasgger import swag_from
 
 
 class TaskListResource(Resource):
