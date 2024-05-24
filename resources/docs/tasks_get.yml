@@ -1,0 +1,23 @@
+get:
+  summary: Get all tasks
+  responses:
+    200:
+      description: A list of tasks
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/Task'
+definitions:
+  Task:
+    type: object
+    properties:
+      id:
+        type: integer
+      title:
+        type: string
+      description:
+        type: string
+      created_at:
+        type: string
+      updated_at:
+        type: string

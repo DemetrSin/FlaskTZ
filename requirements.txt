@@ -1,0 +1,5 @@
+Flask
+Flask-MySQLdb
+Flask-RESTful
+pytest
+Flask-Testing
